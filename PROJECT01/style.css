@@ -1,5 +1,9 @@
 body {
     background-color:rgb(102, 133, 102);
+    background-image: url(images/food-fruit-backgrounds-powerpoint-1390967537.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
@@ -9,18 +13,26 @@ body {
 }
 
 header {
-    background-color: blue;
+    /*background-color: blue;*/
     height: 118px;
+    text-align: center;
 }
 
 nav {
-    background-color: red;
-    height: 40px;
+    background-color: #00000046;
+    height: 20px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 main {
-    background-color: orange;
-    height: 400px;
+    /*background-color: orange;*/
+    height: 350px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 footer {
@@ -28,3 +40,26 @@ footer {
     height: 100px;
 }
 
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+nav a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
